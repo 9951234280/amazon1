@@ -1,0 +1,67 @@
+*{
+  margin:0;
+}
+.header{
+  background-color: #131921;
+  height: 60px;
+  display: flex;
+ color: white;
+
+  justify-content: space-evenly;
+}
+.logoimage{
+  transform: translateY(20px);
+  width: 100px;
+ margin-left: -20px;
+  object-fit: contain;
+
+}
+.More-info{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+.Search-box{
+  width: 780px;
+  margin-top: 17px;
+  height: 25px;
+}
+.bold-size{
+  font-weight: 700;
+}
+.smallfont{
+  font-size: 10px;
+}
+.searchlogo1{
+  width:25px ;
+  position: absolute;
+  height: 30px;
+  transform: translateX(763px);
+  background-color:#cd9042;
+  margin-top: 18px;
+  color: black;
+ 
+}
+.searchlogo{
+  justify-content: center;
+  flex: 1;
+  font-size: 15px;
+  padding: 8px 0 3px 5px;
+  align-content: center;
+  justify-content: center;
+  
+}
+
+.header-search{
+  display: flex;
+}
+.shoppingbasket{
+  font-size: 30px;
+  margin: 13px 0 0 0 ;
+}
+.cartvalue{
+  margin-top: 15px;
+  font-size: 20px;
+  margin-left: -5px;
+}
